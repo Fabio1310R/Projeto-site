@@ -332,6 +332,59 @@ footer .widget_ttle_text{
     margin-top: 20px;
 }
 
+@media (max-width: 600px){
+    .banner_headline h1{
+        font-size: 55px;
+        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.541);
+    }
+
+    .banner_headline h2{
+        font-size: 18px;
+        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.541);
+    }
+
+    .banner_headline h1,
+    .banner_headline h2{
+        padding: 20px;
+    }
+
+    #banner{
+        height: auto;
+    }
+
+    .banner_options{
+        height: auto;
+        flex-direction: column;
+    }
+
+    .banner_options div{
+        border-radius: 0px;
+      
+    }
+
+    .container{
+        flex-direction: column;
+    }
+
+    .conteudo{
+        height: 130px;
+        width: 130px;
+    }
+
+    #aside{
+        justify-content:center ;
+    }
+
+    #geral section,
+    #geral aside{
+        padding: 20px;
+    }
+
+    .footer_copy{
+        text-align: center;
+    }
+}
+
 
 
 
