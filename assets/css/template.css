@@ -414,7 +414,11 @@ footer .widget_ttle_text{
 
     nav ul{
         flex-direction: column;
+        width: 100%;
         display: none;
+        position: absolute;
+        left: 0px;
+        background-color: rgba(255, 255, 255, 0.795);
     }
 
     header{
@@ -429,7 +433,12 @@ footer .widget_ttle_text{
         display: flex;
         flex-direction: column;
         justify-content: space-around;
+       
     }
+    .menu ul{
+         margin-top: 80px;
+    }
+
 }
 
 
