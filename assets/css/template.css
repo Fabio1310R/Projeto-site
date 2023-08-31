@@ -332,6 +332,18 @@ footer .widget_ttle_text{
     margin-top: 20px;
 }
 
+.menu_Mobile{
+    display: none;
+    height: 40px;
+    width: 40px;
+    margin-right: 20px;
+}
+
+.mm_line{
+    background-color: #03A2DF;
+    height: 3px;
+}
+
 @media (max-width: 600px){
     .banner_headline h1{
         font-size: 55px;
@@ -380,8 +392,43 @@ footer .widget_ttle_text{
         padding: 20px;
     }
 
+    .footer_menu,
+    .footer_area{
+        flex-direction: column;
+    }
+    .footer_contt1{
+      align-items: center;
+    }
+
+    .contato{
+        justify-content: space-around;
+    }
+
     .footer_copy{
         text-align: center;
+    }
+
+    header .container{
+        flex-direction: row;
+    }
+
+    nav ul{
+        flex-direction: column;
+        display: none;
+    }
+
+    header{
+        height: auto;
+    }
+
+    .logo{
+        padding: 40px;
+    }
+
+    .menu_Mobile{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
     }
 }
 
